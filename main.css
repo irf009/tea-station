@@ -466,16 +466,19 @@ header {
   text-align: center;
   margin-top: 3rem;
   letter-spacing: var(--spacing);
+  margin-bottom: 1rem;
 }
 .service p {
   text-align: center;
   color: var(--clr-grey-5);
+  max-width: 17rem;
+  margin: auto;
 }
 .read-more {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   border: none;
   background-color: var(--clr-primary);
   color: var(--clr-white);
@@ -484,4 +487,9 @@ header {
   padding: 5px 10px;
   border-radius: 10px;
   letter-spacing: var(--spacing);
+  transition: var(--transition);
+}
+.read-more:hover {
+  background-color: var(--clr-primary-light);
+  color: var(--clr-primary);
 }
