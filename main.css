@@ -354,11 +354,15 @@ header {
   }
   .product-section {
     padding: 5rem 3.5rem;
+    height: 80rem;
   }
 }
 @media screen and (min-width: 990px) {
   .product {
     width: 33%;
+  }
+  .product-section {
+    height: 55rem;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -406,6 +410,9 @@ header {
     height: 27rem;
     margin-left: 0;
     /* float: left; */
+  }
+  .product-section {
+    height: 35rem;
   }
 }
 /* Service Section */
@@ -488,8 +495,36 @@ header {
   border-radius: 10px;
   letter-spacing: var(--spacing);
   transition: var(--transition);
+  cursor: pointer;
 }
 .read-more:hover {
   background-color: var(--clr-primary-light);
   color: var(--clr-primary);
+}
+@media screen and (min-width: 768px) {
+  .service {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .service {
+    width: 30%;
+    margin-right: 3.333%;
+  }
+  .service-title h3 {
+    font-size: 2.5rem;
+    letter-spacing: var(--spacing);
+  }
+  .service-title h2 {
+    font-size: 3rem;
+  }
+  .service h4 {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .service p {
+    font-size: 1.01rem;
+  }
 }
