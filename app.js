@@ -13,3 +13,8 @@ navClose.addEventListener("click", () => {
 //setup date
 const date = (document.getElementById("date").innerHTML =
   new Date().getFullYear());
+
+// const irfan = document.getElementById("footer");
+// irfan.addEventListener("click", () => {
+//   irfan.classList.add("footer-close");
+// });
